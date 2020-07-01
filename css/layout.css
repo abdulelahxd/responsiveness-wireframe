@@ -1,102 +1,341 @@
-/* desktop */
-@media only screen and (min-width: 768px) and (max-width: 960px) {
-  div {
-    float: left;
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+@media (min-width: 1281px) {
+  #mainRow {
+    display: flex;
+    flex-direction: row;
+  }
+  #mainColumn {
+    display: flex;
+    flex-direction: column;
+  }
+  #secondRow {
+    display: flex;
+    flex-direction: row;
+  }
+  #thirdRow {
+    display: flex;
+    flex-direction: row;
   }
   #div-a {
-    width: 100vw;
+    width: 100%;
     height: 100px;
-    background-color: cornflowerblue;
+    background-color: rgb(118, 147, 202);
+    border-bottom: none;
+    line-height: 100px;
   }
   #div-b {
-    width: 20vw;
+    width: 20%;
     height: 600px;
-    background-color: crimson;
+    background-color: rgb(118, 147, 202);
+    border-right: none;
+    line-height: 600px;
   }
   #div-c {
     width: 40vw;
     height: 200px;
-    background-color: cyan;
+    background-color: rgb(118, 147, 202);
+    border-right: none;
+    line-height: 200px;
   }
   #div-d {
     width: 40vw;
     height: 200px;
-    background-color: darkslateblue;
+    background-color: rgb(118, 147, 202);
+    line-height: 200px;
   }
   #div-e {
     width: 20vw;
     height: 250px;
-    background-color: green;
+    background-color: rgb(118, 147, 202);
+    border-top: none;
+    border-right: none;
+    line-height: 250px;
   }
   #div-f {
     width: 20vw;
     height: 250px;
-    background-color: hotpink;
+    background-color: rgb(118, 147, 202);
+    border-top: none;
+    border-right: none;
+    line-height: 250px;
   }
   #div-g {
     width: 20vw;
     height: 250px;
-    background-color: lightsalmon;
+    background-color: rgb(118, 147, 202);
+    border-top: none;
+    border-right: none;
+    line-height: 250px;
   }
   #div-h {
     width: 20vw;
     height: 250px;
-    background-color: lightsteelblue;
+    background-color: rgb(118, 147, 202);
+    border-top: none;
+    line-height: 250px;
   }
   #div-i {
-    width: 80%;
+    width: 100%;
     height: 150px;
+    background-color: rgb(118, 147, 202);
+    border-top: none;
+    line-height: 150px;
   }
 }
 
-
-/* mobile */
-@media (min-width: 480px) and (max-width: 767px) {
-  div {
-    float: left;
+/* //////////////////////////////////////////// */
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+  #mainRow {
+    display: flex;
+    flex-direction: row;
+  }
+  #mainColumn {
+    display: flex;
+    flex-direction: column;
+  }
+  #secondRow {
+    display: flex;
+    flex-direction: row;
+  }
+  #thirdRow {
+    display: flex;
+    flex-direction: row;
   }
   #div-a {
-    width: 100vw;
-    height: 75px;
-    background-color: mediumseagreen;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(76, 218, 135);
+    border-bottom: none;
+    line-height: 100px;
   }
   #div-b {
-    width: 100vw;
-    height: 150px;
-    background-color: crimson;
+    width: 20%;
+    height: 600px;
+    background-color: rgb(76, 218, 135);
+    border-right: none;
+    line-height: 600px;
   }
   #div-c {
-    width: 100vw;
-    height: 125px;
-    background-color: cyan;
+    width: 40vw;
+    height: 200px;
+    background-color: rgb(76, 218, 135);
+    border-right: none;
+    line-height: 200px;
   }
   #div-d {
-    width: 100vw;
-    height: 125px;
-    background-color: darkslateblue;
+    width: 40vw;
+    height: 200px;
+    background-color: rgb(76, 218, 135);
+    line-height: 200px;
   }
   #div-e {
-    width: 50vw;
+    width: 20vw;
     height: 250px;
-    background-color: green;
+    background-color: rgb(76, 218, 135);
+    border-top: none;
+    border-right: none;
+    line-height: 250px;
   }
   #div-f {
-    width: 50vw;
+    width: 20vw;
     height: 250px;
-    background-color: hotpink;
+    background-color: rgb(76, 218, 135);
+    border-top: none;
+    border-right: none;
+    line-height: 250px;
   }
   #div-g {
-    width: 50vw;
+    width: 20vw;
     height: 250px;
-    background-color: lightsalmon;
+    background-color: rgb(76, 218, 135);
+    border-top: none;
+    border-right: none;
+    line-height: 250px;
   }
   #div-h {
-    width: 50vw;
+    width: 20vw;
     height: 250px;
-    background-color: lightsteelblue;
+    background-color: rgb(76, 218, 135);
+    border-top: none;
+    line-height: 250px;
   }
   #div-i {
-    width: 100vw;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(76, 218, 135);
+    border-top: none;
+    line-height: 250px;
+  }
+  
+}
+
+
+
+/* //////////////////////////////////////////// */
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  #mainColumn {
+    display: flex;
+    flex-direction: column;
+  }
+  #secondRow {
+    display: flex;
+    flex-direction: row;
+  }
+  #thirdRow {
+    display: flex;
+    flex-direction: row;
+  }
+  #div-a {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(174, 86, 224);
+    border-bottom: none;
+    line-height: 70px;
+  }
+  #div-b {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(174, 86, 224);
+    line-height: 200px;
+    border-bottom: none;
+  }
+  #div-c {
+    width: 50vw;
+    height: 200px;
+    background-color: rgb(174, 86, 224);
+    border-right: none;
+    line-height: 200px;
+  }
+  #div-d {
+    width: 50vw;
+    height: 200px;
+    background-color: rgb(174, 86, 224);
+    line-height: 200px;
+  }
+  #div-e {
+    width: 25vw;
+    height: 210px;
+    background-color: rgb(174, 86, 224);
+    border-top: none;
+    border-right: none;
+    line-height: 210px;
+  }
+  #div-f {
+    width: 25vw;
+    height: 210px;
+    background-color: rgb(174, 86, 224);
+    border-top: none;
+    border-right: none;
+    line-height: 210px;
+  }
+  #div-g {
+    width: 25vw;
+    height: 210px;
+    background-color: rgb(174, 86, 224);
+    border-top: none;
+    border-right: none;
+    line-height: 210px;
+  }
+  #div-h {
+    width: 25vw;
+    height: 210px;
+    background-color: rgb(174, 86, 224);
+    border-top: none;
+    line-height: 210px;
+  }
+  #div-i {
+    width: 100%;
+    height: 70px;
+    border-top: none;
+    background-color: rgb(174, 86, 224);
+    line-height: 70px;
+  }
+  
+}
+/* //////////////////////////////////////////// */
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 640px
+*/
+@media (min-width: 320px) and (max-width: 640px) {
+  
+  #mainColumn {
+    display: flex;
+    flex-direction: column;
+  }
+  #secondRow {
+    display: flex;
+    flex-direction: column;
+  }
+  #thirdRow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  #div-a {
+    width: 100%;
+    height: 75px;
+    background-color: rgba(27, 27, 27, 0.87);
+    line-height: 75px;
+  }
+  #div-b {
+    width: 100%;
+    height: 150px;
+    background-color: rgba(27, 27, 27, 0.87);
+    line-height: 150px;
+  }
+  #div-c {
+    width: 100%;
+    height: 125px;
+    background-color: rgba(27, 27, 27, 0.87);
+    line-height: 125px;
+  }
+  #div-d {
+    width: 100%;
+    height: 125px;
+    background-color: rgba(27, 27, 27, 0.87);
+    line-height: 125px;
+  }
+  #div-e {
+    width: 50%;
+    height: 250px;
+    background-color: rgba(27, 27, 27, 0.87);
+    line-height: 250px;
+  }
+  #div-f {
+    width: 50%;
+    height: 250px;
+    background-color: rgba(27, 27, 27, 0.87);
+    line-height: 250px;
+  }
+  #div-g {
+    width: 50%;
+    height: 250px;
+    background-color: rgba(27, 27, 27, 0.87);
+    line-height: 250px;
+  }
+  #div-h {
+    width: 50%;
+    height: 250px;
+    background-color: rgba(27, 27, 27, 0.87);
+    line-height: 250px;
+  }
+  #div-i {
+    width: 100%;
     height: 80px;
+    background-color: rgba(27, 27, 27, 0.87);
+    line-height: 80px;
   }
 }
