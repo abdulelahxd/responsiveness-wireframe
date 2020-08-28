@@ -25,7 +25,7 @@ no need to anything everything is inclouded
 
 ## Running the tests
 
-run live server on the browser
+run live server on the IDE
 
 ## Built With
 
