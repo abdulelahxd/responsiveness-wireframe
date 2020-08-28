@@ -1,1 +1,42 @@
-# lab-01
+# responsiveness-wireframe
+
+it's a layout to exercise on the css layout and wireframe. for desktop and IPad and mobile phone devices
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+### Prerequisites
+
+What things you need to install the software and how to install them
+
+```
+only live server
+
+```
+
+### Installing
+
+A step by step series of examples that tell you how to get a development env running
+
+```
+no need to anything everything is inclouded
+
+```
+
+## Running the tests
+
+run live server on the browser
+
+## Built With
+
+1. html
+2. css
+
+
+## Authors
+
+* **abdulelah kassara** - *class task* - [abdulelahxd](https://github.com/abdulelahxd)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
